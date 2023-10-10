@@ -4986,3 +4986,61 @@ hr.style2:before {
         font-size: 16px;
     }
 } */
+
+
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 300px;
+    border-radius: 2rem;
+}
+
+.swiper-slide .custom-card {
+    padding: 1.2rem 1.2rem 0.5rem 1.2rem;
+    border-radius: 2rem;
+    display: block;
+    background-color:#d4cefb;
+    width: 100%;
+    height: 350px;
+    line-height:1.5rem;
+    font-family: sans-serif;
+    text-align: left;
+  }
+  .swiper-slide .custom-card h2{
+    margin-top: 0.8rem;
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    
+    font-size: 1.2rem;
+}
+.swiper-slide .custom-card p{
+      font-weight: bold;
+    padding-top: 10px;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    font-size: 0.9rem;
+  }
+
+  /* .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+
+  /* .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } */
