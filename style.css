@@ -3126,6 +3126,8 @@ hr.style2:before {
     flex-grow: 0;
     flex-shrink: 0;
     font-variant: normal !important;
+    font-weight: 600;
+    font-family: sans-serif;
     letter-spacing: 0 !important;
     order: 1;
     position: relative;
@@ -3166,8 +3168,9 @@ hr.style2:before {
     font-family: 'Questrial', serif;
     letter-spacing: 0.025rem;
     font-size: 1em;
+    font-family: sans-serif;
     line-height: 1.625;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .list.style1 code {
@@ -5044,3 +5047,10 @@ hr.style2:before {
     height: 100%;
     object-fit: cover;
   } */
+
+  .accordion-button{
+    font-weight: bold;
+  }
+  .ls-font{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+  }
